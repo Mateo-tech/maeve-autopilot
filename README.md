@@ -1,10 +1,11 @@
 <h1 align="center"> MAEVE AUTOPILOT</h1>
-An autonomous steering mechanism implementation based on a [Nvidia paper](https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf).
+<p align="center"> An autonomous steering mechanism implementation based on a [Nvidia paper](https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf) </p>
 
 <div align="center">
-![](https://media.giphy.com/media/xEgdH1FvRfpLub40tv/giphy-downsized-large.gif)
-
+ 
 ![](https://media.giphy.com/media/HUBSzphkTC2HXJf80k/giphy.gif)
+![](https://media.giphy.com/media/xEgdH1FvRfpLub40tv/giphy-downsized-large.gif)
+ 
  </div>
 
 Demo: https://www.youtube.com/watch?v=h1Wg7Cn1D-E&t=16s&ab_channel=Mat%C4%9BjHladk%C3%BD

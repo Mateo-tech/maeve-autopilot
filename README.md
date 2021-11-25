@@ -1,5 +1,5 @@
 <h1 align="center"> MAEVE AUTOPILOT</h1>
-<p align="center"> An autonomous steering mechanism implementation based on a [Nvidia paper](https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf) </p>
+An autonomous steering mechanism implementation based on a [Nvidia paper](https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf)
 
 <div align="center">
  

@@ -1,6 +1,7 @@
 <h1 align="center"> MAEVE AUTOPILOT</h1>
-An autonomous steering mechanism implementation based on a [Nvidia paper](https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf)
 
+An autonomous steering mechanism implementation based on the [Nvidia paper](https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf) tested on a real-size car with custom hardware. 
+ 
 <div align="center">
  
 ![](https://media.giphy.com/media/HUBSzphkTC2HXJf80k/giphy.gif)
@@ -17,7 +18,7 @@ Demo: https://www.youtube.com/watch?v=h1Wg7Cn1D-E&t=16s&ab_channel=Mat%C4%9BjHla
 - Due to the originally experimental nature of this project, existing datasets were used during different stages. 
 
 ## Network Architecture & Training
-Apart from some changes, the network follows the original architecture described in the [Nvidia paper](https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf). This is the used architecture:
+Apart from some changes, the network follows the original architecture described in the Nvidia paper. This is the used architecture:
 - Weights are trained to minimize the MSE between the output of the network and the recorded steering angle
 - 6 Convolution Layers (ReLU activation)
 - Max Pooling Layers used after every Convolution Layer

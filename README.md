@@ -13,9 +13,9 @@ Demo: https://www.youtube.com/watch?v=h1Wg7Cn1D-E&t=16s&ab_channel=Mat%C4%9BjHla
 
 # Implementation Details
 ## Data Collection
-- The model of the car that was used for this project had no in-built steering angle sensor or a CAN bus - the steering angle was collected using a customized sensor
+- The model of the car that was used for this project had no in-built steering angle sensor or a CAN bus - the steering angle was collected using a customized sensor. Same goes for the the steering unit. 
 - Video input was recorded using a monocular camera at ~30 FPS (used in training)
-- Due to the originally experimental nature of this project, existing datasets were used during different stages. 
+- Due to the experimental nature of this project, existing datasets were used during different stages. 
 
 ## Network Architecture & Training
 Apart from some changes, the network follows the original architecture described in the Nvidia paper. This is the used architecture:
@@ -25,7 +25,7 @@ Apart from some changes, the network follows the original architecture described
 - 3 Fully Connected Layers
 - A single output neuron (=> steering angle), default activation
 
-For the demo, we intentionally overfitted the main dataset in order to make the model to rather remember the short distances in drove through. However, the model generalizes well on new data. 
+For the demo, the model is intentionally overfitted in order to make the model remember the short distances of more complex sequences it drove through more precisely. However, the model generalizes well on new data.
 
 ## Inspiration
 1. [End to End Learning for Self-Driving Cars](https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf)

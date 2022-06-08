@@ -9,7 +9,7 @@ An autonomous steering mechanism implementation based on the [Nvidia paper](http
  
  </div>
 
-Demo: https://www.youtube.com/watch?v=h1Wg7Cn1D-E&t=16s&ab_channel=Mat%C4%9BjHladk%C3%BD
+Demo: TEMPORARILY DISABLED
 
 # Implementation Details
 ## Data Collection
